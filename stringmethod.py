@@ -1,11 +1,7 @@
-a='Chirag'
-print('string',end=' ')
+str='Anurag'
+a=str.lower()
+b=str.upper()
+c=str.title()
 print(a)
-print('string as title',end='  ')
-print(a.title())
-print('count ir in string',end=' ')
-print(a.count('ir'))
-print('string in lowercase',end=' ')
-print(a.lower())
-print('swapcase of string',end=' ')
-print(a.swapcase())
+print(b)
+print(c)
